@@ -1,19 +1,7 @@
-const root = ReactDOM.createRoot(document.getElementById("root"));
-// const heading = React.createElement(
-//   "h1",
-//   { id: "heading" },
-//   "Hello world from React!"
-// );
-// root.render(heading);
+import React from "react";
+import ReactDOM from "react-dom";
 
-/**
- * For Complex DOM structure like:
- * <div id="parent">
- *      <div id="child">
- *          <h1> I am an h1 tag</h1>
- *      </div>
- * </div>
- */
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
