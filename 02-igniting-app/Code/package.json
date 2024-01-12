@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sagar-shiroya/namaste-react-notes-practical/issues"
   },
-  "homepage": "https://github.com/sagar-shiroya/namaste-react-notes-practical#readme"
+  "homepage": "https://github.com/sagar-shiroya/namaste-react-notes-practical#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
 }
