@@ -14,4 +14,8 @@ const parent = React.createElement("div", { id: "parent" }, [
   ]),
 ]);
 
-root.render(parent);
+// root.render(parent);
+
+// JSX
+const heading = <h1 className="heading">This is JSX header</h1>;
+root.render(heading);
